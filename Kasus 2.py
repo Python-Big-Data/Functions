@@ -11,6 +11,13 @@ def starFormation(n):
             print('*', end='')
         print()
 
+def starFormationDescending(x):
+    for i in range(x + 1):
+        for j in range(x - i):
+            print('*', end='')
+        print()
+
 
 # (5) adalah argumennya
 print(starFormation(5))
+print(starFormationDescending(5))
