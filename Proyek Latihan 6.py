@@ -24,4 +24,11 @@ def sum(*myData):
 print(sum(1, 0, 0, 2, 4))
 
 # b
+def average(masukan):
+        Array = len(masukan)
+        ratarata = sum() / Array
+    return ratarata
 
+print(average(1, 0, 0, 2, 4))
+
+# c

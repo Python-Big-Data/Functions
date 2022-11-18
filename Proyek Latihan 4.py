@@ -3,7 +3,7 @@
 
 # Gunakan function tersebut untuk menghitung nilai dari:
 # a. C( 5, 3)
-# b. P (10, 7)
+# b. P(10, 7)
 
 def factorial(n, fact):
     for i in range (1, n+1):
